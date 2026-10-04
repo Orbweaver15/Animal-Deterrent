@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="status">Use WASD keys or click buttons to control the robot</div>
+    <div class="controls">
+        <div class="key" id="w">W</div>
+        <div></div>
+        <div class="key" id="a">A</div>
+        <div class="key" id="s">S</div>
+        <div class="key" id="d">D</div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/controller.js') }}"></script>
+</body>
+</html>
